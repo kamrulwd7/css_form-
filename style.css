@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f3e0e2;
+}
+.form-main{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 2px 14px 22px 1px black;
+}
+main>*{
+    flex-basis: 100%;
+}
+.login-form{
+    background-color: #fff;
+    text-align: center;
+}
+
+.login-form-heading {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 3rem;
+}
+
+.fa-brands {
+	border: 5px solid #EEE;
+	font-size: 25px;
+	border-radius: 50%;
+	width: 37px;
+	height: 38px;
+    margin-bottom: 30px;
+}
+.fa-facebook{
+    margin-right: 3px;
+}
+.fa-twitter{
+    margin-left: 3px;
+}
+input {
+    width: 80%;
+    background-color: #EEE;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(102, 91, 91);
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    width: 120px;
+    background-color: rgb(238, 58, 58);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login-text{
+    background-image: linear-gradient(to right, #ff454d , #ff4160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text {
+    padding: 7px;
+}
+.text h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: auto;
+}
+
+.text p {
+    color: #ffff;
+    font-size: 16px;
+}
